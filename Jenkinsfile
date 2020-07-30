@@ -9,7 +9,7 @@ pipeline {
         stage('SCM Checkout') {
             agent any
             steps {
-                git 'https://github.com/samridhi9719/DockerParking.git'
+                git 'https://github.com/samridhi97/DockerParking.git'
 
             }
         }
