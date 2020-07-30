@@ -1,6 +1,6 @@
 pipeline {
     environment { 
-        registry = "sri199008/parking_ui2"
+        registry = "samridhi9719/parking_ui"
         registryCredential = 'dockerhub'
         dockerImage = '' 
     }
@@ -9,7 +9,7 @@ pipeline {
         stage('SCM Checkout') {
             agent any
             steps {
-                git 'https://github.com/sri008/DockerParking.git'
+                git 'https://github.com/samridhi9719/DockerParking.git'
 
             }
         }
